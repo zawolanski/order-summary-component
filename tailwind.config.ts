@@ -7,13 +7,15 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      page: '#E0E8FF',
+    },
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+        'page-mobile': 'url(../../public/pattern-background-mobile.svg)',
+        'page-desktop': 'url(../../public/pattern-background-desktop.svg)'
+      }
+    }
   },
   plugins: [],
 }
