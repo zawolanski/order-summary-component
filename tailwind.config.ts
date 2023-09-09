@@ -1,4 +1,5 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 const config: Config = {
   content: [
@@ -15,6 +16,10 @@ const config: Config = {
         'page-mobile': 'url(../../public/pattern-background-mobile.svg)',
         'page-desktop': 'url(../../public/pattern-background-desktop.svg)'
       }
+    },
+    screens: {
+      'xs': '360px',
+      ...defaultTheme.screens
     }
   },
   plugins: [],

@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${red_Hat_Display.className} bg-page bg-page-mobile bg-top bg-cover lg:bg-page-desktop`}>{children}</body>
+      <body className={`${red_Hat_Display.className} bg-page bg-page-mobile bg-top bg-cover bg-no-repeat lg:bg-page-desktop min-h-screen flex justify-center items-center`}>{children}</body>
     </html>
   )
 }
