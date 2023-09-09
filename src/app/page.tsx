@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between w-full max-w-md m-6 bg-[#fff] rounded-3xl overflow-hidden">
-      <div className="w-full h-[160px] relative">
+      <div className="w-full h-[160px] relative md:h-[220px]">
         <Image alt="" src="/illustration-hero.svg" fill style={{ objectFit: 'cover' }} />
       </div>
       <div className="flex flex-col p-3 gap-6 xs:p-6 md:p-12 md:pb-6">
