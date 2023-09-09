@@ -17,6 +17,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
+![Mobile](https://github.com/zawolanski/order-summary-component/assets/61630877/0886d5d2-738d-42df-8c36-59df0029e769)
+
+![Desktop](https://github.com/zawolanski/order-summary-component/assets/61630877/7d4b6f92-6910-4fd0-980c-bf320afd04e0)
+
 ### Links
 
 - Live Site URL: [App](https://order-summary-component-seven-dusky.vercel.app/)
